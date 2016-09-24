@@ -1,0 +1,108 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+body{
+	background: #fff;
+	margin: 0 auto;
+	font: 12px/1 arial, helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active,
+a:visited{
+	text-decoration: none;
+}
+ul, ol{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+	border: none;
+}
+input, button, textarea{
+	border: none;
+	outline: none;
+}
+textarea{
+	resize: vertical;
+}
+input[type="submit"], button{
+	cursor: pointer;
+}
+.conteiner{
+	width: px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+/* BTN DEFAULT STYLE */
+.btn{
+	display: inline-block;
+	background: $buttonColor;
+	color: #fff;
+	font-family: 'robotomedium';
+	padding: 12px 15px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.btn:hover{
+	background: #b9322d;
+}
+input.btn{
+	font-size: 21px;
+}
+
+/* TITLE STYLE */
+h6{
+	color: #000;
+	font-size: 36px;
+	text-transform: uppercase;
+	font-family: 'robotolight';
+}
+h6 span{
+	font-family: 'roboto_condensedbold';
+}
+
+/* INPUT STYLE */
+input[type="text"]{
+	background: transparent;
+	border: 2px solid #000;
+	font-family: 'robotoitalic';
+	font-size: 16px;
+	color: #4f4f4f;
+	padding: 0 20px;
+	height: 50px;
+}
+/* wrong input validate class */
+input.required{
+	border-color: #db3a34;
+}
+input:focus{
+	border-color: #a0b137;
+}
+/* placeholder style */
+::-webkit-input-placeholder {color:#4f4f4f;}
+::-moz-placeholder          {color:#4f4f4f;}
+:-moz-placeholder           {color:#4f4f4f;}
+:-ms-input-placeholder      {color:#4f4f4f;}
+
+:focus::-webkit-input-placeholder {color: transparent;}
+:focus::-moz-placeholder          {color: transparent;}
+:focus:-moz-placeholder           {color: transparent;}
+:focus:-ms-input-placeholder      {color: transparent;}

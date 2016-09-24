@@ -3,11 +3,81 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Voyage</title>
-
+	<link rel="stylesheet" href="css/slick.css">
 	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<!-- HEADER START -->
+	<header>
+		<div class="container">
+			<div class="logo">
+          		<a href="index.html">
+            		<h1>ГРАНДВ</h1>
+            		<img src="img/logo-img.png" alt="img">
+            		<h1>ЯЖ</h1>
+          		</a>
+          	</div>
+          	<div class="contact">
+					<ul class="number">
+						<li class="life"><span>063 58 369 25</span></li>
+						<li class="star"><span>063 58 369 25</span></li>
+						<li class="mts"><span>063 58 369 25</span></li>
+					</ul>
+					<ul class="header-nav">
+						<li><a href="#">Направления и Цены</a></li>
+						<li><a href="#">Преимущества</a></li>
+						<li><a href="#">Отзывы</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>                           
+				</div>
+		</div>
+		
+	</header>
+	<!-- HEADER END -->
+
+	<!-- MAIN START -->
+
+	<main>
+		<div class="caruesel-wrap">
+			<div class="carusel fade-js">
+  				<div>
+  					<img src="img/slide-1.jpg" alt="">
+  				</div>
+  				<div>
+  					<img src="img/slide-2.jpg" alt="">
+  				</div>
+  				<div>
+  					<img src="img/slide-3.jpg" alt="">
+  				</div>
+			</div>
+		</div>
+		
+	</main>
+
+	<!-- MAIN END -->
+
+	<!-- FOOTER START -->
+	<footer>
+		
+	</footer>
+
+	<!-- FOOTER END -->
+
+	<!-- jQuery Skripts -->
 	
+	<script src="js/jQuery 1.1.3.js"></script>
+	<script src="js/slick.js"></script>
+	<script>
+	$('.fade-js').slick({
+  		dots: true,
+  		infinite: true,
+  		speed: 500,
+  		fade: true,
+  		cssEase: 'linear',
+  		arrows: false
+	});
+</script>
 
 </body>
 </html>
