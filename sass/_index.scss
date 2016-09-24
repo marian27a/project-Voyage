@@ -121,8 +121,37 @@ main{
 					background-color: #db3a34;
 				}
 		}
-	}  
+	} 
+	.timer-wrap{
+		padding: 42px 130px;
+			.title{
+				margin-bottom: 7px;
+			}
+			.red-star{
+				font-size: 16px;
+				color: #000;
+				font-family: 'robotoregular';
+					span{
+						font-size: 30px;
+						color: #db3a34;
+					}
+			}
+			.timer{
+				float: left;
+			}
+			.discount-form{
+				float: right;
+				width: 300px;
+					h6{
+						margin-bottom: 30px;
+					}
+					input{
+						width: 100%;
+						margin-bottom: 18px;
+					}
+			}
+	}
 }
 
 
-// MAIN STYLE END
+// MAIN STYLE ENDa

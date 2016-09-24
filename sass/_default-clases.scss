@@ -74,9 +74,10 @@ h6{
 	font-size: 36px;
 	text-transform: uppercase;
 	font-family: 'robotolight';
-}
-h6 span{
-	font-family: 'roboto_condensedbold';
+		span{
+			font-family: 'robotolight';
+			font-weight: bold;
+		}
 }
 
 /* INPUT STYLE */

@@ -186,6 +186,43 @@ main .slick-dots li button .slick-active {
 main .slick-dots .slick-active button {
   background-color: #db3a34;
 }
+/* line 125, ../sass/_index.scss */
+main .timer-wrap {
+  padding: 42px 130px;
+}
+/* line 127, ../sass/_index.scss */
+main .timer-wrap .title {
+  margin-bottom: 7px;
+}
+/* line 130, ../sass/_index.scss */
+main .timer-wrap .red-star {
+  font-size: 16px;
+  color: #000;
+  font-family: 'robotoregular';
+}
+/* line 134, ../sass/_index.scss */
+main .timer-wrap .red-star span {
+  font-size: 30px;
+  color: #db3a34;
+}
+/* line 139, ../sass/_index.scss */
+main .timer-wrap .timer {
+  float: left;
+}
+/* line 142, ../sass/_index.scss */
+main .timer-wrap .discount-form {
+  float: right;
+  width: 300px;
+}
+/* line 145, ../sass/_index.scss */
+main .timer-wrap .discount-form h6 {
+  margin-bottom: 30px;
+}
+/* line 148, ../sass/_index.scss */
+main .timer-wrap .discount-form input {
+  width: 100%;
+  margin-bottom: 18px;
+}
 
 @font-face {
   font-family: 'roboto_condensedbold';
@@ -212,6 +249,13 @@ main .slick-dots .slick-active button {
   font-family: 'robotomedium';
   src: url("../fonts/roboto-medium-webfont.eot");
   src: url("../fonts/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-medium-webfont.woff2") format("woff2"), url("../fonts/roboto-medium-webfont.woff") format("woff"), url("../fonts/roboto-medium-webfont.ttf") format("truetype"), url("../fonts/roboto-medium-webfont.svg#robotomedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/roboto-regular-webfont.eot");
+  src: url("../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto-regular-webfont.svg#robotomedium") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -321,14 +365,14 @@ h6 {
   text-transform: uppercase;
   font-family: 'robotolight';
 }
-
-/* line 78, ../sass/_default-clases.scss */
+/* line 77, ../sass/_default-clases.scss */
 h6 span {
-  font-family: 'roboto_condensedbold';
+  font-family: 'robotolight';
+  font-weight: bold;
 }
 
 /* INPUT STYLE */
-/* line 83, ../sass/_default-clases.scss */
+/* line 84, ../sass/_default-clases.scss */
 input[type="text"] {
   background: transparent;
   border: 2px solid #000;
@@ -340,53 +384,53 @@ input[type="text"] {
 }
 
 /* wrong input validate class */
-/* line 93, ../sass/_default-clases.scss */
+/* line 94, ../sass/_default-clases.scss */
 input.required {
   border-color: #db3a34;
 }
 
-/* line 96, ../sass/_default-clases.scss */
+/* line 97, ../sass/_default-clases.scss */
 input:focus {
   border-color: #a0b137;
 }
 
 /* placeholder style */
-/* line 100, ../sass/_default-clases.scss */
+/* line 101, ../sass/_default-clases.scss */
 ::-webkit-input-placeholder {
   color: #4f4f4f;
 }
 
-/* line 101, ../sass/_default-clases.scss */
+/* line 102, ../sass/_default-clases.scss */
 ::-moz-placeholder {
   color: #4f4f4f;
 }
 
-/* line 102, ../sass/_default-clases.scss */
+/* line 103, ../sass/_default-clases.scss */
 :-moz-placeholder {
   color: #4f4f4f;
 }
 
-/* line 103, ../sass/_default-clases.scss */
+/* line 104, ../sass/_default-clases.scss */
 :-ms-input-placeholder {
   color: #4f4f4f;
 }
 
-/* line 105, ../sass/_default-clases.scss */
+/* line 106, ../sass/_default-clases.scss */
 :focus::-webkit-input-placeholder {
   color: transparent;
 }
 
-/* line 106, ../sass/_default-clases.scss */
+/* line 107, ../sass/_default-clases.scss */
 :focus::-moz-placeholder {
   color: transparent;
 }
 
-/* line 107, ../sass/_default-clases.scss */
+/* line 108, ../sass/_default-clases.scss */
 :focus:-moz-placeholder {
   color: transparent;
 }
 
-/* line 108, ../sass/_default-clases.scss */
+/* line 109, ../sass/_default-clases.scss */
 :focus:-ms-input-placeholder {
   color: transparent;
 }
