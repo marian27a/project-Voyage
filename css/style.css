@@ -188,40 +188,113 @@ main .slick-dots .slick-active button {
 }
 /* line 125, ../sass/_index.scss */
 main .timer-wrap {
-  padding: 42px 130px;
+  margin: 42px 130px;
+  overflow: hidden;
+  border-bottom: 2px solid #6a5e5a;
+  -webkit-border-image: url(../img/gorizontal-dot.png) 0 0 2 repeat;
+  -o-border-image: url(../img/gorizontal-dot.png) 0 0 2 repeat;
+  border-image: url(../img/gorizontal-dot.png) 0 0 2 repeat;
 }
-/* line 127, ../sass/_index.scss */
+/* line 132, ../sass/_index.scss */
 main .timer-wrap .title {
   margin-bottom: 7px;
 }
-/* line 130, ../sass/_index.scss */
+/* line 135, ../sass/_index.scss */
 main .timer-wrap .red-star {
   font-size: 16px;
   color: #000;
   font-family: 'robotoregular';
 }
-/* line 134, ../sass/_index.scss */
+/* line 139, ../sass/_index.scss */
 main .timer-wrap .red-star span {
   font-size: 30px;
   color: #db3a34;
 }
-/* line 139, ../sass/_index.scss */
+/* line 144, ../sass/_index.scss */
 main .timer-wrap .timer {
   float: left;
 }
-/* line 142, ../sass/_index.scss */
+/* line 147, ../sass/_index.scss */
 main .timer-wrap .discount-form {
   float: right;
   width: 300px;
 }
-/* line 145, ../sass/_index.scss */
+/* line 150, ../sass/_index.scss */
 main .timer-wrap .discount-form h6 {
   margin-bottom: 30px;
 }
-/* line 148, ../sass/_index.scss */
+/* line 153, ../sass/_index.scss */
 main .timer-wrap .discount-form input {
   width: 100%;
   margin-bottom: 18px;
+}
+/* line 159, ../sass/_index.scss */
+main .price {
+  padding: 38px 130px 59px 130px;
+}
+/* line 161, ../sass/_index.scss */
+main .price .title {
+  margin-bottom: 30px;
+}
+/* line 164, ../sass/_index.scss */
+main .price .directions {
+  margin: 0 -10px;
+}
+/* line 167, ../sass/_index.scss */
+main .price .price-block {
+  width: 50%;
+  height: 182px;
+  background-color: #ebebeb;
+  float: left;
+  padding: 0 10px;
+  margin-bottom: 35px;
+  background-clip: content-box;
+}
+/* line 175, ../sass/_index.scss */
+main .price .price-block .direction {
+  width: 320px;
+  height: 50px;
+  background: #a0b137;
+  padding: 13px 20px;
+  float: left;
+}
+/* line 182, ../sass/_index.scss */
+main .price .price-block .total-price {
+  width: 140px;
+  float: right;
+  padding-top: 5px;
+}
+/* line 187, ../sass/_index.scss */
+main .price .price-block .total-price span .old-price {
+  font-family: 'robotolight';
+  font-size: 16px;
+  color: #000;
+  text-decoration: line-through;
+  margin-right: 60px;
+}
+/* line 196, ../sass/_index.scss */
+main .price .price-block .direction span {
+  font-family: 'robotomedium';
+  font-size: 21px;
+  color: #fefefe;
+  display: inline-block;
+  position: relative;
+}
+/* line 203, ../sass/_index.scss */
+main .price .price-block .direction span + span {
+  padding-left: 26px;
+}
+/* line 205, ../sass/_index.scss */
+main .price .price-block .direction span + span:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 8px;
+  left: 2px;
+  top: 50%;
+  margin-top: -4px;
+  background: url(../img/derection-arrow.png) no-repeat;
 }
 
 @font-face {
