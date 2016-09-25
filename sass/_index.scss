@@ -163,6 +163,9 @@ main{
 		}
 		.directions{
 			 margin: 0 -10px;
+			 .price-title{
+			 	overflow: hidden;
+			 }
 		}
 		.price-block{
 			width: 50%;
@@ -213,6 +216,62 @@ main{
     				margin-top: -4px;
     				background: url(../img/derection-arrow.png) no-repeat;
     			}
+			}
+			.real-price{
+				width: 140px;
+    			float: right;
+    			padding-top: 5px;
+    			span{
+    				float: right;
+    			}
+    			.old-price {
+    				font-family: 'robotolight';
+   					font-size: 16px;
+    				color: #000;
+    				text-decoration: line-through;
+    				margin-right: 60px;				
+				}
+				.new-price {
+    				font-size: 24px;
+    				color: #db3a34;
+    				font-family: 'robotomedium';
+    				margin-right: 20px;
+    			}
+			}
+			.price-descrip{
+				padding: 20px 20px 10px;
+				overflow: hidden;
+				.distance {
+    				padding: 10px 0;
+    				background: url(../img/distance.png) no-repeat center center;
+    				position: relative;
+    				overflow: hidden;
+    				.start-time {
+    					float: left;
+					}
+					.end-time {
+    					float: right;
+					}
+					.total-distance {
+    					position: absolute;
+    					width: 100%;
+    					text-align: center;
+    					top: 0;
+					}
+					.total-time {
+						position: absolute;
+    					width: 100%;
+    					text-align: center;
+    					bottom: 0;
+
+					}
+    			}
+    			.price-reserv{
+						span{
+							margin-top: 10px;
+							font-size: 14px;
+						}
+					}
 			}
 		}
 

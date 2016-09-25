@@ -240,7 +240,11 @@ main .price .title {
 main .price .directions {
   margin: 0 -10px;
 }
-/* line 167, ../sass/_index.scss */
+/* line 166, ../sass/_index.scss */
+main .price .directions .price-title {
+  overflow: hidden;
+}
+/* line 170, ../sass/_index.scss */
 main .price .price-block {
   width: 50%;
   height: 182px;
@@ -250,7 +254,7 @@ main .price .price-block {
   margin-bottom: 35px;
   background-clip: content-box;
 }
-/* line 175, ../sass/_index.scss */
+/* line 178, ../sass/_index.scss */
 main .price .price-block .direction {
   width: 320px;
   height: 50px;
@@ -258,13 +262,13 @@ main .price .price-block .direction {
   padding: 13px 20px;
   float: left;
 }
-/* line 182, ../sass/_index.scss */
+/* line 185, ../sass/_index.scss */
 main .price .price-block .total-price {
   width: 140px;
   float: right;
   padding-top: 5px;
 }
-/* line 187, ../sass/_index.scss */
+/* line 190, ../sass/_index.scss */
 main .price .price-block .total-price span .old-price {
   font-family: 'robotolight';
   font-size: 16px;
@@ -272,7 +276,7 @@ main .price .price-block .total-price span .old-price {
   text-decoration: line-through;
   margin-right: 60px;
 }
-/* line 196, ../sass/_index.scss */
+/* line 199, ../sass/_index.scss */
 main .price .price-block .direction span {
   font-family: 'robotomedium';
   font-size: 21px;
@@ -280,11 +284,11 @@ main .price .price-block .direction span {
   display: inline-block;
   position: relative;
 }
-/* line 203, ../sass/_index.scss */
+/* line 206, ../sass/_index.scss */
 main .price .price-block .direction span + span {
   padding-left: 26px;
 }
-/* line 205, ../sass/_index.scss */
+/* line 208, ../sass/_index.scss */
 main .price .price-block .direction span + span:before {
   content: "";
   display: inline-block;
@@ -295,6 +299,70 @@ main .price .price-block .direction span + span:before {
   top: 50%;
   margin-top: -4px;
   background: url(../img/derection-arrow.png) no-repeat;
+}
+/* line 220, ../sass/_index.scss */
+main .price .price-block .real-price {
+  width: 140px;
+  float: right;
+  padding-top: 5px;
+}
+/* line 224, ../sass/_index.scss */
+main .price .price-block .real-price span {
+  float: right;
+}
+/* line 227, ../sass/_index.scss */
+main .price .price-block .real-price .old-price {
+  font-family: 'robotolight';
+  font-size: 16px;
+  color: #000;
+  text-decoration: line-through;
+  margin-right: 60px;
+}
+/* line 234, ../sass/_index.scss */
+main .price .price-block .real-price .new-price {
+  font-size: 24px;
+  color: #db3a34;
+  font-family: 'robotomedium';
+  margin-right: 20px;
+}
+/* line 241, ../sass/_index.scss */
+main .price .price-block .price-descrip {
+  padding: 20px 20px 10px;
+  overflow: hidden;
+}
+/* line 244, ../sass/_index.scss */
+main .price .price-block .price-descrip .distance {
+  padding: 10px 0;
+  background: url(../img/distance.png) no-repeat center center;
+  position: relative;
+  overflow: hidden;
+}
+/* line 249, ../sass/_index.scss */
+main .price .price-block .price-descrip .distance .start-time {
+  float: left;
+}
+/* line 252, ../sass/_index.scss */
+main .price .price-block .price-descrip .distance .end-time {
+  float: right;
+}
+/* line 255, ../sass/_index.scss */
+main .price .price-block .price-descrip .distance .total-distance {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+}
+/* line 261, ../sass/_index.scss */
+main .price .price-block .price-descrip .distance .total-time {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
+/* line 270, ../sass/_index.scss */
+main .price .price-block .price-descrip .price-reserv span {
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 @font-face {
@@ -342,25 +410,25 @@ main .price .price-block .direction span + span:before {
   appearance: none;
 }
 
-/* line 10, ../sass/_default-clases.scss */
+/* line 9, ../sass/_default-clases.scss */
 body {
   background: #fff;
   margin: 0 auto;
   font: 12px/1 arial, helvetica, sans-serif;
 }
 
-/* line 15, ../sass/_default-clases.scss */
+/* line 14, ../sass/_default-clases.scss */
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-/* line 18, ../sass/_default-clases.scss */
+/* line 17, ../sass/_default-clases.scss */
 a {
   color: #000;
   text-decoration: none;
 }
 
-/* line 22, ../sass/_default-clases.scss */
+/* line 21, ../sass/_default-clases.scss */
 a:hover,
 a:focus,
 a:active,
@@ -368,40 +436,40 @@ a:visited {
   text-decoration: none;
 }
 
-/* line 28, ../sass/_default-clases.scss */
+/* line 27, ../sass/_default-clases.scss */
 ul, ol {
   margin: 0;
   padding: 0;
 }
 
-/* line 32, ../sass/_default-clases.scss */
+/* line 31, ../sass/_default-clases.scss */
 ul {
   list-style: none;
 }
 
-/* line 35, ../sass/_default-clases.scss */
+/* line 34, ../sass/_default-clases.scss */
 img {
   max-width: 100%;
   border: none;
 }
 
-/* line 39, ../sass/_default-clases.scss */
+/* line 38, ../sass/_default-clases.scss */
 input, button, textarea {
   border: none;
   outline: none;
 }
 
-/* line 43, ../sass/_default-clases.scss */
+/* line 42, ../sass/_default-clases.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 46, ../sass/_default-clases.scss */
+/* line 45, ../sass/_default-clases.scss */
 input[type="submit"], button {
   cursor: pointer;
 }
 
-/* line 49, ../sass/_default-clases.scss */
+/* line 48, ../sass/_default-clases.scss */
 .conteiner {
   width: px;
   padding: 0 10px;
@@ -409,7 +477,7 @@ input[type="submit"], button {
 }
 
 /* BTN DEFAULT STYLE */
-/* line 55, ../sass/_default-clases.scss */
+/* line 54, ../sass/_default-clases.scss */
 .btn {
   display: inline-block;
   background: #db3a34;
@@ -420,32 +488,32 @@ input[type="submit"], button {
   text-transform: uppercase;
 }
 
-/* line 64, ../sass/_default-clases.scss */
+/* line 63, ../sass/_default-clases.scss */
 .btn:hover {
   background: #b9322d;
 }
 
-/* line 67, ../sass/_default-clases.scss */
+/* line 66, ../sass/_default-clases.scss */
 input.btn {
   font-size: 21px;
 }
 
 /* TITLE STYLE */
-/* line 72, ../sass/_default-clases.scss */
+/* line 71, ../sass/_default-clases.scss */
 h6 {
   color: #000;
   font-size: 36px;
   text-transform: uppercase;
   font-family: 'robotolight';
 }
-/* line 77, ../sass/_default-clases.scss */
+/* line 76, ../sass/_default-clases.scss */
 h6 span {
   font-family: 'robotolight';
   font-weight: bold;
 }
 
 /* INPUT STYLE */
-/* line 84, ../sass/_default-clases.scss */
+/* line 83, ../sass/_default-clases.scss */
 input[type="text"] {
   background: transparent;
   border: 2px solid #000;
@@ -457,53 +525,53 @@ input[type="text"] {
 }
 
 /* wrong input validate class */
-/* line 94, ../sass/_default-clases.scss */
+/* line 93, ../sass/_default-clases.scss */
 input.required {
   border-color: #db3a34;
 }
 
-/* line 97, ../sass/_default-clases.scss */
+/* line 96, ../sass/_default-clases.scss */
 input:focus {
   border-color: #a0b137;
 }
 
 /* placeholder style */
-/* line 101, ../sass/_default-clases.scss */
+/* line 100, ../sass/_default-clases.scss */
 ::-webkit-input-placeholder {
   color: #4f4f4f;
 }
 
-/* line 102, ../sass/_default-clases.scss */
+/* line 101, ../sass/_default-clases.scss */
 ::-moz-placeholder {
   color: #4f4f4f;
 }
 
-/* line 103, ../sass/_default-clases.scss */
+/* line 102, ../sass/_default-clases.scss */
 :-moz-placeholder {
   color: #4f4f4f;
 }
 
-/* line 104, ../sass/_default-clases.scss */
+/* line 103, ../sass/_default-clases.scss */
 :-ms-input-placeholder {
   color: #4f4f4f;
 }
 
-/* line 106, ../sass/_default-clases.scss */
+/* line 105, ../sass/_default-clases.scss */
 :focus::-webkit-input-placeholder {
   color: transparent;
 }
 
-/* line 107, ../sass/_default-clases.scss */
+/* line 106, ../sass/_default-clases.scss */
 :focus::-moz-placeholder {
   color: transparent;
 }
 
-/* line 108, ../sass/_default-clases.scss */
+/* line 107, ../sass/_default-clases.scss */
 :focus:-moz-placeholder {
   color: transparent;
 }
 
-/* line 109, ../sass/_default-clases.scss */
+/* line 108, ../sass/_default-clases.scss */
 :focus:-ms-input-placeholder {
   color: transparent;
 }
