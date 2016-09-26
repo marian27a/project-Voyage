@@ -188,7 +188,7 @@ main .slick-dots .slick-active button {
 }
 /* line 125, ../sass/_index.scss */
 main .timer-wrap {
-  margin: 42px 130px;
+  margin: 42px 0px;
   overflow: hidden;
   border-bottom: 2px solid #6a5e5a;
   -webkit-border-image: url(../img/gorizontal-dot.png) 0 0 2 repeat;
@@ -364,6 +364,72 @@ main .price .price-block .price-descrip .price-reserv span {
   margin-top: 10px;
   font-size: 14px;
 }
+/* line 278, ../sass/_index.scss */
+main .advantages {
+  padding: 40px 0 50px 0;
+  background: url(../img/advantage-bg.jpg) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+/* line 283, ../sass/_index.scss */
+main .advantages .title {
+  margin-bottom: 45px;
+}
+/* line 286, ../sass/_index.scss */
+main .advantages .col {
+  position: relative;
+  width: 16.5%;
+  float: left;
+  padding: 100px 10px 0;
+  text-align: center;
+}
+/* line 292, ../sass/_index.scss */
+main .advantages .col:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  top: 0;
+  left: 50%;
+  margin-left: -42px;
+  background: url(../img/sprite-Advanteges.png);
+}
+/* line 303, ../sass/_index.scss */
+main .advantages .col:before {
+  background-position: -5px -5px;
+}
+/* line 306, ../sass/_index.scss */
+main .advantages .col span {
+  font-family: 'robotomedium';
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+}
+/* line 314, ../sass/_index.scss */
+main .advantages .img1:before {
+  background-position: -5px -5px;
+}
+/* line 319, ../sass/_index.scss */
+main .advantages .img2:before {
+  background-position: -99px -5px;
+}
+/* line 324, ../sass/_index.scss */
+main .advantages .img3:before {
+  background-position: -5px -99px;
+}
+/* line 329, ../sass/_index.scss */
+main .advantages .img4:before {
+  background-position: -99px -99px;
+}
+/* line 334, ../sass/_index.scss */
+main .advantages .img5:before {
+  background-position: -193px -5px;
+}
+/* line 339, ../sass/_index.scss */
+main .advantages .img6:before {
+  background-position: -193px -99px;
+}
 
 @font-face {
   font-family: 'roboto_condensedbold';
@@ -471,13 +537,14 @@ input[type="submit"], button {
 
 /* line 48, ../sass/_default-clases.scss */
 .conteiner {
-  width: px;
+  width: 960px;
   padding: 0 10px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 /* BTN DEFAULT STYLE */
-/* line 54, ../sass/_default-clases.scss */
+/* line 55, ../sass/_default-clases.scss */
 .btn {
   display: inline-block;
   background: #db3a34;
@@ -488,32 +555,32 @@ input[type="submit"], button {
   text-transform: uppercase;
 }
 
-/* line 63, ../sass/_default-clases.scss */
+/* line 64, ../sass/_default-clases.scss */
 .btn:hover {
   background: #b9322d;
 }
 
-/* line 66, ../sass/_default-clases.scss */
+/* line 67, ../sass/_default-clases.scss */
 input.btn {
   font-size: 21px;
 }
 
 /* TITLE STYLE */
-/* line 71, ../sass/_default-clases.scss */
+/* line 72, ../sass/_default-clases.scss */
 h6 {
   color: #000;
   font-size: 36px;
   text-transform: uppercase;
   font-family: 'robotolight';
 }
-/* line 76, ../sass/_default-clases.scss */
+/* line 77, ../sass/_default-clases.scss */
 h6 span {
   font-family: 'robotolight';
   font-weight: bold;
 }
 
 /* INPUT STYLE */
-/* line 83, ../sass/_default-clases.scss */
+/* line 84, ../sass/_default-clases.scss */
 input[type="text"] {
   background: transparent;
   border: 2px solid #000;
@@ -525,53 +592,53 @@ input[type="text"] {
 }
 
 /* wrong input validate class */
-/* line 93, ../sass/_default-clases.scss */
+/* line 94, ../sass/_default-clases.scss */
 input.required {
   border-color: #db3a34;
 }
 
-/* line 96, ../sass/_default-clases.scss */
+/* line 97, ../sass/_default-clases.scss */
 input:focus {
   border-color: #a0b137;
 }
 
 /* placeholder style */
-/* line 100, ../sass/_default-clases.scss */
+/* line 101, ../sass/_default-clases.scss */
 ::-webkit-input-placeholder {
   color: #4f4f4f;
 }
 
-/* line 101, ../sass/_default-clases.scss */
+/* line 102, ../sass/_default-clases.scss */
 ::-moz-placeholder {
   color: #4f4f4f;
 }
 
-/* line 102, ../sass/_default-clases.scss */
+/* line 103, ../sass/_default-clases.scss */
 :-moz-placeholder {
   color: #4f4f4f;
 }
 
-/* line 103, ../sass/_default-clases.scss */
+/* line 104, ../sass/_default-clases.scss */
 :-ms-input-placeholder {
   color: #4f4f4f;
 }
 
-/* line 105, ../sass/_default-clases.scss */
+/* line 106, ../sass/_default-clases.scss */
 :focus::-webkit-input-placeholder {
   color: transparent;
 }
 
-/* line 106, ../sass/_default-clases.scss */
+/* line 107, ../sass/_default-clases.scss */
 :focus::-moz-placeholder {
   color: transparent;
 }
 
-/* line 107, ../sass/_default-clases.scss */
+/* line 108, ../sass/_default-clases.scss */
 :focus:-moz-placeholder {
   color: transparent;
 }
 
-/* line 108, ../sass/_default-clases.scss */
+/* line 109, ../sass/_default-clases.scss */
 :focus:-ms-input-placeholder {
   color: transparent;
 }

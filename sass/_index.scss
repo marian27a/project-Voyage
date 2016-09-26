@@ -123,7 +123,7 @@ main{
 		}
 	} 
 	.timer-wrap{
-		margin: 42px 130px;
+		margin: 42px 0px;
 		overflow: hidden;
 		border-bottom: 2px solid #6a5e5a;
 		-webkit-border-image: url(../img/gorizontal-dot.png) 0 0 2 repeat;
@@ -271,10 +271,75 @@ main{
 							margin-top: 10px;
 							font-size: 14px;
 						}
-					}
+				}
 			}
 		}
-
+	}
+	.advantages{
+		padding: 40px 0 50px 0;
+    	background: url(../img/advantage-bg.jpg) no-repeat center;
+    	background-size: cover;
+    	overflow: hidden;
+    	.title{
+    		margin-bottom: 45px;
+    	}
+    	.col{
+    		position: relative;
+    		width: 16.5%;
+    		float: left;
+    		padding: 100px 10px 0;
+    		text-align: center;
+    		&:before{
+    			content: "";
+    			display: inline-block;
+    			position: absolute;
+    			width: 84px;
+    			height: 84px;
+    			top: 0;
+    			left: 50%;
+    			margin-left: -42px;
+    			background: url(../img/sprite-Advanteges.png);
+    		}
+    		&:before{
+    			background-position: -5px -5px;
+    		}
+    		span{
+    			font-family: 'robotomedium';
+    			font-size: 16px;
+    			color: #000;
+    			text-transform: uppercase;
+    		}
+    	}
+    	.img1{
+    		&:before{
+    			background-position: -5px -5px;
+    		}
+    	}
+    	.img2{
+    		&:before{
+    			background-position: -99px -5px;
+    		}
+    	}
+    	.img3{
+    		&:before{
+    			background-position: -5px -99px;
+    		}
+    	}
+    	.img4{
+    		&:before{
+    			background-position: -99px -99px;
+    		}
+    	}
+    	.img5{
+    		&:before{
+    			background-position: -193px -5px;
+    		}
+    	}
+    	.img6{
+    		&:before{
+    			background-position: -193px -99px;
+    		}
+    	}
 	}
 }
 
