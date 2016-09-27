@@ -211,40 +211,77 @@ main .timer-wrap .red-star span {
   color: #db3a34;
 }
 /* line 144, ../sass/_index.scss */
+main .timer-wrap .timer-block {
+  background: #ebebeb;
+  height: 159px;
+  width: 541px;
+  text-align: center;
+  padding-top: 14px;
+  margin-top: 22px;
+  display: inline-block;
+  padding: 20px;
+}
+/* line 153, ../sass/_index.scss */
+main .timer-wrap .timer-block > span {
+  color: #db3a34;
+  font-family: "Roboto-Medium";
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+/* line 160, ../sass/_index.scss */
+main .timer-wrap .timer-block .table-cell {
+  display: inline-block;
+}
+/* line 162, ../sass/_index.scss */
+main .timer-wrap .timer-block .table-cell .tab-val {
+  font-size: 80px;
+  line-height: 63px;
+  color: #4f4f4f;
+  padding: 0 24px;
+  font-family: 'roboto_condensedbold';
+}
+/* line 169, ../sass/_index.scss */
+main .timer-wrap .timer-block .table-cell .tab-unit {
+  font-size: 16px;
+  color: #000;
+  font-family: 'robotomedium';
+}
+/* line 176, ../sass/_index.scss */
 main .timer-wrap .timer {
   float: left;
 }
-/* line 147, ../sass/_index.scss */
+/* line 179, ../sass/_index.scss */
 main .timer-wrap .discount-form {
   float: right;
   width: 300px;
 }
-/* line 150, ../sass/_index.scss */
+/* line 182, ../sass/_index.scss */
 main .timer-wrap .discount-form h6 {
   margin-bottom: 30px;
 }
-/* line 153, ../sass/_index.scss */
+/* line 185, ../sass/_index.scss */
 main .timer-wrap .discount-form input {
   width: 100%;
   margin-bottom: 18px;
 }
-/* line 159, ../sass/_index.scss */
+/* line 191, ../sass/_index.scss */
 main .price {
   padding: 38px 130px 59px 130px;
 }
-/* line 161, ../sass/_index.scss */
+/* line 193, ../sass/_index.scss */
 main .price .title {
   margin-bottom: 30px;
 }
-/* line 164, ../sass/_index.scss */
+/* line 196, ../sass/_index.scss */
 main .price .directions {
   margin: 0 -10px;
 }
-/* line 166, ../sass/_index.scss */
+/* line 198, ../sass/_index.scss */
 main .price .directions .price-title {
   overflow: hidden;
 }
-/* line 170, ../sass/_index.scss */
+/* line 202, ../sass/_index.scss */
 main .price .price-block {
   width: 50%;
   height: 182px;
@@ -254,7 +291,7 @@ main .price .price-block {
   margin-bottom: 35px;
   background-clip: content-box;
 }
-/* line 178, ../sass/_index.scss */
+/* line 210, ../sass/_index.scss */
 main .price .price-block .direction {
   width: 320px;
   height: 50px;
@@ -262,13 +299,13 @@ main .price .price-block .direction {
   padding: 13px 20px;
   float: left;
 }
-/* line 185, ../sass/_index.scss */
+/* line 217, ../sass/_index.scss */
 main .price .price-block .total-price {
   width: 140px;
   float: right;
   padding-top: 5px;
 }
-/* line 190, ../sass/_index.scss */
+/* line 222, ../sass/_index.scss */
 main .price .price-block .total-price span .old-price {
   font-family: 'robotolight';
   font-size: 16px;
@@ -276,7 +313,7 @@ main .price .price-block .total-price span .old-price {
   text-decoration: line-through;
   margin-right: 60px;
 }
-/* line 199, ../sass/_index.scss */
+/* line 231, ../sass/_index.scss */
 main .price .price-block .direction span {
   font-family: 'robotomedium';
   font-size: 21px;
@@ -284,11 +321,11 @@ main .price .price-block .direction span {
   display: inline-block;
   position: relative;
 }
-/* line 206, ../sass/_index.scss */
+/* line 238, ../sass/_index.scss */
 main .price .price-block .direction span + span {
   padding-left: 26px;
 }
-/* line 208, ../sass/_index.scss */
+/* line 240, ../sass/_index.scss */
 main .price .price-block .direction span + span:before {
   content: "";
   display: inline-block;
@@ -300,17 +337,17 @@ main .price .price-block .direction span + span:before {
   margin-top: -4px;
   background: url(../img/derection-arrow.png) no-repeat;
 }
-/* line 220, ../sass/_index.scss */
+/* line 252, ../sass/_index.scss */
 main .price .price-block .real-price {
   width: 140px;
   float: right;
   padding-top: 5px;
 }
-/* line 224, ../sass/_index.scss */
+/* line 256, ../sass/_index.scss */
 main .price .price-block .real-price span {
   float: right;
 }
-/* line 227, ../sass/_index.scss */
+/* line 259, ../sass/_index.scss */
 main .price .price-block .real-price .old-price {
   font-family: 'robotolight';
   font-size: 16px;
@@ -318,64 +355,64 @@ main .price .price-block .real-price .old-price {
   text-decoration: line-through;
   margin-right: 60px;
 }
-/* line 234, ../sass/_index.scss */
+/* line 266, ../sass/_index.scss */
 main .price .price-block .real-price .new-price {
   font-size: 24px;
   color: #db3a34;
   font-family: 'robotomedium';
   margin-right: 20px;
 }
-/* line 241, ../sass/_index.scss */
+/* line 273, ../sass/_index.scss */
 main .price .price-block .price-descrip {
   padding: 20px 20px 10px;
   overflow: hidden;
 }
-/* line 244, ../sass/_index.scss */
+/* line 276, ../sass/_index.scss */
 main .price .price-block .price-descrip .distance {
   padding: 10px 0;
   background: url(../img/distance.png) no-repeat center center;
   position: relative;
   overflow: hidden;
 }
-/* line 249, ../sass/_index.scss */
+/* line 281, ../sass/_index.scss */
 main .price .price-block .price-descrip .distance .start-time {
   float: left;
 }
-/* line 252, ../sass/_index.scss */
+/* line 284, ../sass/_index.scss */
 main .price .price-block .price-descrip .distance .end-time {
   float: right;
 }
-/* line 255, ../sass/_index.scss */
+/* line 287, ../sass/_index.scss */
 main .price .price-block .price-descrip .distance .total-distance {
   position: absolute;
   width: 100%;
   text-align: center;
   top: 0;
 }
-/* line 261, ../sass/_index.scss */
+/* line 293, ../sass/_index.scss */
 main .price .price-block .price-descrip .distance .total-time {
   position: absolute;
   width: 100%;
   text-align: center;
   bottom: 0;
 }
-/* line 270, ../sass/_index.scss */
+/* line 302, ../sass/_index.scss */
 main .price .price-block .price-descrip .price-reserv span {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
-/* line 278, ../sass/_index.scss */
+/* line 310, ../sass/_index.scss */
 main .advantages {
   padding: 40px 0 50px 0;
   background: url(../img/advantage-bg.jpg) no-repeat center;
   background-size: cover;
   overflow: hidden;
 }
-/* line 283, ../sass/_index.scss */
+/* line 315, ../sass/_index.scss */
 main .advantages .title {
   margin-bottom: 45px;
 }
-/* line 286, ../sass/_index.scss */
+/* line 318, ../sass/_index.scss */
 main .advantages .col {
   position: relative;
   width: 16.5%;
@@ -383,7 +420,7 @@ main .advantages .col {
   padding: 100px 10px 0;
   text-align: center;
 }
-/* line 292, ../sass/_index.scss */
+/* line 324, ../sass/_index.scss */
 main .advantages .col:before {
   content: "";
   display: inline-block;
@@ -395,40 +432,96 @@ main .advantages .col:before {
   margin-left: -42px;
   background: url(../img/sprite-Advanteges.png);
 }
-/* line 303, ../sass/_index.scss */
+/* line 335, ../sass/_index.scss */
 main .advantages .col:before {
   background-position: -5px -5px;
 }
-/* line 306, ../sass/_index.scss */
+/* line 338, ../sass/_index.scss */
 main .advantages .col span {
   font-family: 'robotomedium';
   font-size: 16px;
   color: #000;
   text-transform: uppercase;
 }
-/* line 314, ../sass/_index.scss */
+/* line 346, ../sass/_index.scss */
 main .advantages .img1:before {
   background-position: -5px -5px;
 }
-/* line 319, ../sass/_index.scss */
+/* line 351, ../sass/_index.scss */
 main .advantages .img2:before {
   background-position: -99px -5px;
 }
-/* line 324, ../sass/_index.scss */
+/* line 356, ../sass/_index.scss */
 main .advantages .img3:before {
   background-position: -5px -99px;
 }
-/* line 329, ../sass/_index.scss */
+/* line 361, ../sass/_index.scss */
 main .advantages .img4:before {
   background-position: -99px -99px;
 }
-/* line 334, ../sass/_index.scss */
+/* line 366, ../sass/_index.scss */
 main .advantages .img5:before {
   background-position: -193px -5px;
 }
-/* line 339, ../sass/_index.scss */
+/* line 371, ../sass/_index.scss */
 main .advantages .img6:before {
   background-position: -193px -99px;
+}
+/* line 377, ../sass/_index.scss */
+main .reviews .col {
+  float: left;
+  padding: 0 10px;
+  width: 33.3333%;
+  margin-bottom: 40px;
+}
+/* line 384, ../sass/_index.scss */
+main .reviews .review-title img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+/* line 388, ../sass/_index.scss */
+main .reviews .review-title span {
+  vertical-align: middle;
+  font-size: 18px;
+  color: #000;
+  font-family: 'robotomedium';
+}
+/* line 396, ../sass/_index.scss */
+main .reviews .review-text p {
+  font-size: 16px;
+  color: #000;
+  font-family: 'robotolight';
+}
+/* line 404, ../sass/_index.scss */
+main .contact-form form {
+  width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 408, ../sass/_index.scss */
+main .contact-form form input[type="text"] + input[type="text"] {
+  margin: 0 0 30px 18px;
+}
+/* line 411, ../sass/_index.scss */
+main .contact-form form .input-top {
+  width: 212px;
+}
+/* line 414, ../sass/_index.scss */
+main .contact-form form .input-lg {
+  width: 329px;
+}
+/* line 417, ../sass/_index.scss */
+main .contact-form form input[name="name"] {
+  margin: 0 !important;
+}
+
+/* line 437, ../sass/_index.scss */
+.popup {
+  display: none;
+  width: 300px;
+  height: 100px;
+  background: #fff;
+  border-radius: 10px;
 }
 
 @font-face {
@@ -593,8 +686,8 @@ input[type="text"] {
 
 /* wrong input validate class */
 /* line 94, ../sass/_default-clases.scss */
-input.required {
-  border-color: #db3a34;
+input.wrong-form {
+  border-color: #db3a34 !important;
 }
 
 /* line 97, ../sass/_default-clases.scss */

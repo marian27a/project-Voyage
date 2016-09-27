@@ -141,6 +141,38 @@ main{
 						color: #db3a34;
 					}
 			}
+			.timer-block {
+   			 	background: #ebebeb;
+   			 	height: 159px;
+    			width: 541px;
+   			 	text-align: center;
+    			padding-top: 14px;
+    			margin-top: 22px;
+    			display: inline-block;
+    			padding: 20px;
+    			>span{
+    				color: #db3a34;
+    				font-family: "Roboto-Medium";
+    				font-size: 14px;
+    				margin-bottom: 15px;
+    				display: inline-block;
+    			}
+    			.table-cell{
+    				display: inline-block;
+					.tab-val {
+    					font-size: 80px;
+    					line-height: 63px;
+    					color: #4f4f4f;
+    					padding: 0 24px;
+    					font-family: 'roboto_condensedbold';
+					}
+					.tab-unit {
+    					font-size: 16px;
+    					color: #000;
+    					font-family: 'robotomedium';
+					}						
+    			}
+			}
 			.timer{
 				float: left;
 			}
@@ -269,7 +301,7 @@ main{
     			.price-reserv{
 						span{
 							margin-top: 10px;
-							font-size: 14px;
+							font-size: 12px;
 						}
 				}
 			}
@@ -341,7 +373,75 @@ main{
     		}
     	}
 	}
+	.reviews{
+		.col {
+    		float: left;
+    		padding: 0 10px;
+    		width: 33.3333%;
+    		margin-bottom: 40px;
+		}
+		.review-title{
+			img {
+    			vertical-align: middle;
+    			margin-right: 15px;
+			}
+			span{
+    			vertical-align: middle;
+    			font-size: 18px;
+    			color: #000;
+    			font-family: 'robotomedium';
+			}
+		}
+		.review-text {
+			p{
+    			font-size: 16px;
+    			color: #000;
+    			font-family: 'robotolight';
+			}
+		}
+	}
+	.contact-form{
+		form{
+			width: 680px;
+    		margin: 0 auto;
+    		text-align: center;
+    		input[type="text"] + input[type="text"] {
+    			margin: 0 0 30px 18px;
+			}
+			.input-top {
+    			width: 212px;
+			}
+			.input-lg {
+    			width: 329px;
+			}
+			input[name="name"] {
+    			margin: 0 !important;
+			}
+		}
+	}
 }
 
 
-// MAIN STYLE ENDa
+// MAIN STYLE END
+
+
+// FOOTER STYLE BEGIN
+
+
+
+// FOOTER STYLE END
+
+
+// POPUP BEGIN
+
+.popup{
+	display: none;
+	width: 300px;
+	height: 100px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+
+
+// POPUP END
